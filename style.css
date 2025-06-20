@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nickname-screen {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+#chat-screen {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#chat-box {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+}
+
+#message-input {
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #111;
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+}
